@@ -1,0 +1,52 @@
+
+Bu projede api den hava durumu bilgisi cekecegiz ve template de yazdiracagiz. 
+
+Bu projede kullandigimiz api Hizmeti adresi:
+
+https://openweathermap.org/current#name
+
+API nedir ? 
+application programming interface
+
+Verimizi json, xml, html formatinda birden fazla platfiorma acik hale getirme, dis dünyaya acma 
+
+api nedir ?
+https://aws.amazon.com/tr/what-is/api/
+
+rest api:  durumdan bagimsiz. istemci eger uygun bir istek atti ise sunucuya, bu durumda istemcinin kim oldugu önemli degildir. 
+
+
+eger bir site api hizmeti sunmuyorsa bu durumda web scraping ile o siteden veri cekilebilir. özellikle e ticaret sitelerinde bu yaygin. 
+python da selenium ile yapilir. 
+
+
+Biz verilerimizi api endpointleri vasitasi ile disari aktaracagiz. 
+
+Api de document cok önemli. 
+
+
+silmek istedigimiz paketler uninstall komutu ile silinir. sadece requirements dan silmemiz yeterli degil. 
+
+
+
+
+### icon larimizin id lerine göre resimleri nasil cekecegimiz:
+Bu siteye gidilir oradaki url kopyalanir ve url icine kendi kodumuzu yazariz. 
+
+https://openweathermap.org/weather-conditions
+
+
+
+
+Bazen hata aldigimizda sebebini bulamazsak, env silip yeniden yükleyelim. 
+
+
+önceden avr olan bir model e baska bir sütun eklemek icin;
+
+bize iki secenek sunar. Birincisinde eskiden db de var olan sütunlar icin default deger atamasi yaptirir. ikinci olarak oraya biz bir deger atayalim mi diye sorar. 
+
+python manage.py makemigrations appismi 
+
+Bu kodu yazdigimizda eger görmemis ise görür. 
+
+
